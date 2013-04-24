@@ -18,6 +18,8 @@ def pwd_to_privatekey(pwd)
     base16_to_base58(base16)
 end
 
-pwd = ARGV[0]
+print "Enter password: "
+pwd = gets[0...-1]
+puts
 puts "password:    [#{pwd}]"
 puts "private key: [#{pwd_to_privatekey(pwd)}]"

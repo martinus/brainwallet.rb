@@ -5,9 +5,11 @@ Very simple ruby script for offline creation of a private key for bitcoin brainw
 
 usage example:
 
-    ./brainwallet.rb "correct horse battery staple"
+    ./brainwallet.rb 
 
-output:
+You will be asked for the password. The output is e.g.
 
+    Enter password: correct horse battery staple
+    
     password:    [correct horse battery staple]
     private key: [5KJvsngHeMpm884wtkJNzQGaCErckhHJBGFsvd3VyK5qMZXj3hS]
